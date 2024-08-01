@@ -55,7 +55,7 @@ const deleteWorkout = async (req, res) => {
   res.status(200).json(workout);
 };
 
-// update a workoug
+// update a workout
 const updateWorkout = async (req, res) => {
   const { id } = req.params;
 
